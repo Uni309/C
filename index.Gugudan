@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main()
+{
+    for(int index=1; index<10; index++)
+    {
+      for(int table=2; table<10; table++)
+         printf("%1d * %1d = %2d |",table,index,index*table);
+      printf("\n");
+    }
+    return 0;
+}
+//증감 활용하여 만들 수 있다.
